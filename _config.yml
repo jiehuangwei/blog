@@ -5,12 +5,12 @@ gems: [jekyll-paginate]
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:           date
 relative_permalinks: false
 
 # Setup
-title:               博客
-tagline:             '博客'
+title:               Blog
+tagline:             ''
 description:         '记录生活工作的点滴<a href="https://twitter.com/jiehuangwei" target="_blank">@jiehuangwei</a>.'
 url:                 http://jiehuangwei.wiki
 baseurl:             ''

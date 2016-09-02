@@ -7,14 +7,14 @@ title: 首页
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
+      <a href="{{ site.baseurl | remove_first:'/'}}{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
 
-    {{ post.content }}
+    
   </div>
   {% endfor %}
 </div>

@@ -11,7 +11,7 @@
 
   <title>
     
-      404: Page not found &middot; Lanyon
+      404: Page not found &middot; Blog
     
   </title>
 
@@ -43,7 +43,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="/">Home</a>
+    <a class="sidebar-nav-item" href="/">首页</a>
 
     
 
@@ -59,7 +59,7 @@
     
       
         
-          <a class="sidebar-nav-item" href="/about/">关于</a>
+          <a class="sidebar-nav-item" href="/about.html">关于</a>
         
       
     
@@ -88,8 +88,8 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="/" title="Home">Lanyon</a>
-            <small>博客</small>
+            <a href="/" title="Home">Blog</a>
+            <small></small>
           </h3>
         </div>
       </div>
@@ -104,23 +104,9 @@
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
+    
+    <script type="text/javascript" src="/public/js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="/public/js/common.js"></script>
+     
   </body>
 </html>
