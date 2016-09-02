@@ -12,8 +12,8 @@ relative_permalinks: false
 title:               Blog
 tagline:             ''
 description:         '记录生活工作的点滴<a href="https://twitter.com/jiehuangwei" target="_blank">@jiehuangwei</a>.'
-url:                 http://jiehuangwei.wiki
-baseurl:             ''
+url:                 http://www.jiehuangwei.wiki
+baseurl:             http://www.jiehuangwei.wiki
 paginate:            5
 
 # About/contact
