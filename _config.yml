@@ -2,9 +2,6 @@
 # include
 gems: [jekyll-paginate]
 
-#safe: false
-category_dir : categories
-
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
