@@ -4,7 +4,7 @@ title: 关于
 ---
 
 <p class="message">
-  待写。。。
+  Bomb Bom Bom Bom
 </p>
 
 
