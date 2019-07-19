@@ -4,7 +4,8 @@ title: 关于
 ---
 
 <p class="message">
-  Bomb Bom Bom Bom
+  $senior = [ 'php', 'js', 'golang', 'shell' ];
+  $hobby = [ 'reading', 'runing', 'enjoy everything!'];
 </p>
 
 
