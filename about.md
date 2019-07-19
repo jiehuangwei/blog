@@ -4,12 +4,8 @@ title: 关于
 ---
 
 <p class="message">
-	```php
-
-  $senior = [ 'php', 'js', 'golang', 'shell' ];<>
+  $senior = [ 'php', 'js', 'golang', 'shell' ];<br />
   $hobby = [ 'reading', 'runing', 'enjoy everything!'];
-
-  ```
 </p>
 
 
